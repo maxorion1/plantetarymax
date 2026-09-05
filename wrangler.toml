@@ -4,10 +4,10 @@ compatibility_date = "2024-08-01"
 compatibility_flags = ["nodejs_compat"]
 
 [durable_objects]
-bindings = [
-  { name = "SubstrateDO", class_name = "SubstrateDO" },
-  { name = "BrokerDO", class_name = "BrokerDO" }
-]
+type = "bindings"
+name = "SubstrateDO"
+name = "BrokerDO"
+
 
 [exports.SubstrateDO]
 type = "durable-object"
